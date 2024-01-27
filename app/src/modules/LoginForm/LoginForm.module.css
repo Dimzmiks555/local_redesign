@@ -1,0 +1,10 @@
+.loginForm h2 {
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+.loginForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

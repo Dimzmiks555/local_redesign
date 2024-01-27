@@ -1,0 +1,40 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+} 
+.layout aside {
+    background: #333;
+    width: 300px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.layout aside img {
+    width: 160px;
+}
+.layout aside h2 {
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+}
+.layout main {
+    width: calc(100% - 300px);
+}
+.layout main h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.layout nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 60px;
+}
+.layout .content {
+    padding: 30px 60px;
+}

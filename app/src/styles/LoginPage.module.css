@@ -1,0 +1,20 @@
+.loginPage {
+    min-height: 100vh;
+    display: flex;
+}
+.illustration {
+    padding: 5%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.illustration img {
+    max-height: 640px;
+}
+.form {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

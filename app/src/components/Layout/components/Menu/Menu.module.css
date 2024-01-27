@@ -1,0 +1,75 @@
+.menu {
+    margin-top: 80px;
+    width: 100%;
+}
+.link {
+    display: block;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.link:hover {
+    background: #777;
+}
+.nested_link {
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.nested_link:hover {
+    background: #777;
+}
+.nested_link .link {
+    padding: 0;
+}
+.nested_link > ul {
+    display: none;
+}
+
+.nested_link_active {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nested_link_active .plane {
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    padding: 20px 30px;
+    background: #777;
+}
+
+.nested_link_active .link {
+    border-radius: 0;
+    margin: 0;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.nested_link_active > ul {
+    background: #999;
+    border-radius: 0 0 10px 10px ;
+    margin-bottom: 20px;
+}
+
+.nested_link_active .link:hover {
+    background: #aaa;
+}
+
+.plane {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plane svg {
+    border-radius: 24px;
+    width: 24px;
+    height: 24px;
+}

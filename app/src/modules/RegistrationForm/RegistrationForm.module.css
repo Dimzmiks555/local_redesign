@@ -1,0 +1,10 @@
+.registrationForm h2 {
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+.registrationForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

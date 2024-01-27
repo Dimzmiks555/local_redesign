@@ -1,0 +1,10 @@
+.sublink {
+    text-align: left;
+    display: block;
+    width: fit-content;
+    font-weight: 400;
+    color: #742082;
+}
+.sublink:hover {
+    text-decoration: underline;
+}

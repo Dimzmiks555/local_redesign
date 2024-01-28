@@ -17,7 +17,7 @@
     display: flex;
     gap: 20px;
     align-items: center;
-    padding: 20px 60px 20px 30px;
+    padding: 10px 20px 10px 12px;
     border-radius: 20px;
     user-select: none;
     cursor: pointer;
@@ -45,7 +45,7 @@
     background: linear-gradient(135deg, #0f2338,#463780,#bd0a9b);                         
 }
 .text {
-    font-size: 24px;
+    font-size: 22px;
 }
 .subtext {
     font-size: 16px;

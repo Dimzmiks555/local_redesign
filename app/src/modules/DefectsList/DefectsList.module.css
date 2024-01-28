@@ -1,0 +1,46 @@
+.defectsList {
+    display: flex;
+    gap: 40px;
+}
+
+.tableWrapper {
+    width: 60%;
+}
+
+.defectPreview {
+    width: 40%;
+    background: #f8f8f8;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.footer table {
+    width: 100%;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 20px;
+    border-collapse: collapse;
+}
+.footer table td {
+    padding: 20px 30px;
+    border-bottom: 1px solid #ddd;
+}
+.footer table td:first-child {
+    background: #f6eeff;
+}
+.footer table tr:first-child td {
+    border-radius: 20px 0 0 0;
+}
+.footer table tr:last-child td {
+    border-radius: 0 0 0 20px;
+    border-bottom: none;
+}
+
+
+.image {
+    margin: 20px 0;
+}

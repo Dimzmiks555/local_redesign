@@ -17,11 +17,7 @@ const Menu = () => {
           <Link href="/app/inspection/glue"><li className={s.link}>Клей</li></Link>
           <Link href="/app/inspection/gap"><li className={s.link}>Зазор</li></Link>
       </NestedLink>
-      <Link href="/app/reports">
-        <li className={s.link}>
-          Отчеты
-        </li>
-      </Link>
+      <Link href="/app/defects"><li className={s.link}>Дефекты</li></Link>
     </ul>
   )
 }

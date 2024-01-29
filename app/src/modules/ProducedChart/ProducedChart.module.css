@@ -1,0 +1,10 @@
+.chart {
+    display: flex;
+    gap: 20px;
+}
+.chart > div:first-child {
+    max-width: 40%;
+}
+/* .chart tspan {
+    font-size: 18px !important;
+} */

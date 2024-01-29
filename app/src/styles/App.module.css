@@ -1,0 +1,18 @@
+.grid {
+    display: grid;
+    grid-template-areas: 'a b' 
+                         'c c';
+    /* grid-template-rows: 50px 1fr 30px; */
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.chart {
+    border-radius: 20px;
+    background: #f4f4f4;
+}
+/* .produced_chart {
+    grid-area: a;
+}
+.top_defects_chart {
+    grid-area: b;
+} */

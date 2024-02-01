@@ -1,0 +1,21 @@
+.control h3 {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.control svg {
+    height: 24px;
+    width: 24px;
+}
+.control span {
+    font-weight: 800;
+    color: #742082;
+    cursor: pointer;
+    margin-left: 6px;
+    display: flex;
+    align-items: center;
+}
+.control span:hover {
+    color: #922aa4;
+    text-decoration: underline;
+}
